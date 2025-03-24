@@ -26,5 +26,25 @@ public class Main {
         * That is why we have to use the Builder Pattern
         *
         * */
+
+
+        ComputerBuilder gamingComputerBuilder = new ComputerBuilder.Builder()
+                .setProcessor("Ryzen9")
+                .setCores(12)
+                .setThreads(24)
+                .setBaseClock(8)
+                .setBoostClock(12)
+                .setArchitecture("64 Bit")
+                .setMotherboard("ASUS ROG Strix X570-E")
+                .setChipset("X570")
+                .setRamSize(16)
+                .setRamType("DDR4")
+                .setRamSlots(4)
+                .setGpu("NVIDIA RTX 4090")
+                .setVram(24)
+                .build();
+
+
+
     }
 }
