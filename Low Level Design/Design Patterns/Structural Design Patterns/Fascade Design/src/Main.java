@@ -1,7 +1,9 @@
-import Without_Fascade.DVDPlayer;
-import Without_Fascade.HomeTheature;
-import Without_Fascade.Light;
-import Without_Fascade.MovieSelection;
+import Simple_Home_Theature_Example.DVDPlayer;
+import Simple_Home_Theature_Example.HomeTheature;
+import Simple_Home_Theature_Example.Light;
+import Simple_Home_Theature_Example.MovieSelection;
+
+import java.util.concurrent.atomic.AtomicBoolean;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -17,7 +19,6 @@ public class Main {
         * */
 
         // Before Fascade Design Pattern
-
 
         DVDPlayer dvdPlayer = new DVDPlayer();
         MovieSelection movieSelection = new MovieSelection();
@@ -39,6 +40,11 @@ public class Main {
 
         homeTheature.watchMovie();
         homeTheature.endMovie();
+
+
+
+
+
     }
 
 
