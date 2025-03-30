@@ -10,6 +10,8 @@ public class Ticket {
     private Vehicle vehicle;
     private ParkingSpot parkingSpot;
     private LocalDateTime entryTime;
+    private Long startMilliSeconds;
+    private Long endMilliSeconds;
     private LocalDateTime exitTime;
     private boolean isActive;
 
@@ -20,6 +22,7 @@ public class Ticket {
         this.parkingSpot = parkingSpot;
         this.entryTime = LocalDateTime.now();
         this.isActive = true;
+        this.startMilliSeconds = System.currentTimeMillis();
     }
 
     // Getters
@@ -55,8 +58,9 @@ public class Ticket {
 
     // Calculate parking duration in minutes
     public long getParkingDurationInMinutes() {
-        LocalDateTime endTime = (exitTime != null) ? exitTime : LocalDateTime.now();
-        return Duration.between(entryTime, endTime).toMinutes();
+        endMilliSeconds = System.currentTimeMillis();
+        Duration duration = Duration.ofMillis(endMilliSeconds - startMilliSeconds);
+        return duration.toSeconds();
     }
 
     // Optional: calculate fee based on duration and a rate per minute

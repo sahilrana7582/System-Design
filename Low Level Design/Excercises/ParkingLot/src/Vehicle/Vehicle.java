@@ -1,15 +1,42 @@
 package Vehicle;
 
-public class Vehicle {
+import Parking_Spot.SpotType;
 
+public class Vehicle  {
+
+    private String vehicleNumber;
+    private String vehicleColor;
+    private String ownerName;
     private VehicleType vehicleType;
-    private int vehicleNumber;
-    private String vehicleName;
 
-    public Vehicle(VehicleType vehicleType, int vehicleNumber, String vehicleName) {
-        this.vehicleType = vehicleType;
+
+    public Vehicle(String vehicleNumber, String vehicleColor, String ownerName, VehicleType vehicleType) {
         this.vehicleNumber = vehicleNumber;
-        this.vehicleName = vehicleName;
+        this.vehicleColor = vehicleColor;
+        this.ownerName = ownerName;
+        this.vehicleType = vehicleType;
     }
+
+    public String getVehicleNumber() {
+        return vehicleNumber;
+    }
+
+    public String getVehicleColor() {
+        return vehicleColor;
+    }
+
+    public String getOwnerName() {
+        return ownerName;
+    }
+
+    public VehicleType getVehicleType() {
+        return vehicleType;
+    }
+
+
+    public boolean canFitInSpot(SpotType spotType){
+        return vehicleType.canFitInSpot(spotType);
+    };
+
 
 }

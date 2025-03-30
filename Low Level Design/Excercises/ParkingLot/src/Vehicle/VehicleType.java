@@ -1,6 +1,37 @@
 package Vehicle;
 
-public interface VehicleType {
+import Parking_Spot.SpotType;
 
-    void vehicleType();
+public enum VehicleType {
+
+    BIKE {
+        public boolean canFitInSpot(SpotType spotType) {
+            return spotType == SpotType.TWO_WHEELER || spotType == SpotType.COMPACT;
+        }
+    },
+    CAR {
+        public boolean canFitInSpot(SpotType spotType) {
+            return spotType == SpotType.FOUR_WHEELER || spotType == SpotType.LARGE;
+        }
+    },
+    TRUCK {
+        public boolean canFitInSpot(SpotType spotType) {
+            return spotType == SpotType.LARGE;
+        }
+    },
+    ELECTRIC {
+        public boolean canFitInSpot(SpotType spotType) {
+            return spotType == SpotType.ElECTRIC;
+        }
+    },
+    HANDICAPPED {
+        public boolean canFitInSpot(SpotType spotType) {
+            return spotType == SpotType.HANDICAPPED;
+        }
+    };
+
+
+    public abstract boolean canFitInSpot(SpotType spotType);
+
+
 }
