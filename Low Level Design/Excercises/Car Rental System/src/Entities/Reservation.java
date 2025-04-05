@@ -1,18 +1,13 @@
+// File: Entities/Reservation.java
 package Entities;
 
-import java.time.LocalDate;
-import java.time.ZoneId;
-import java.time.temporal.ChronoUnit;
 import java.util.Date;
 
 public class Reservation {
-
-    private String reservationId;
-    private User user;
-    private Vehicle vehicle;
-    private Store store;
-    private Date reservationDate;
-    private Date returnDate;
+    private final String reservationId;
+    private final User user;
+    private final Vehicle vehicle;
+    private final Store store;
     private String status;
 
     private Reservation(Builder builder) {
@@ -20,9 +15,18 @@ public class Reservation {
         this.user = builder.user;
         this.vehicle = builder.vehicle;
         this.store = builder.store;
-        this.reservationDate = builder.reservationDate;
-        this.returnDate = builder.returnDate;
-        this.status = builder.status;
+        this.status = "PENDING";
+    }
+
+    // Getters
+    public String getReservationId() { return reservationId; }
+    public User getUser() { return user; }
+    public Vehicle getVehicle() { return vehicle; }
+    public Store getStore() { return store; }
+    public String getStatus() { return status; }
+
+    public void setStatus(String status) {
+        this.status = status;
     }
 
     public static class Builder {
@@ -30,9 +34,6 @@ public class Reservation {
         private User user;
         private Vehicle vehicle;
         private Store store;
-        private Date reservationDate;
-        private Date returnDate;
-        private String status;
 
         public Builder setReservationId(String reservationId) {
             this.reservationId = reservationId;
@@ -54,34 +55,8 @@ public class Reservation {
             return this;
         }
 
-        public Builder setReservationDate(Date reservationDate) {
-            this.reservationDate = reservationDate;
-            return this;
-        }
-
-        public Builder setReturnDate(Date returnDate) {
-            this.returnDate = returnDate;
-            return this;
-        }
-
-        public Builder setStatus(String status) {
-            this.status = status;
-            return this;
-        }
-
         public Reservation build() {
             return new Reservation(this);
         }
     }
-
-    public double calculateBill() {
-        return 100.00;
-    }
-
-    public void setStatus(String status) {
-        this.status = status;
-    }
-
-
-
 }

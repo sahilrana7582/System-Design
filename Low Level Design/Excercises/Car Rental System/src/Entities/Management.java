@@ -1,44 +1,41 @@
+// File: Entities/Management.java
 package Entities;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Management {
-
-    List<Store> stores;
-    List<Vehicle> Vehicles;
-
-
-    public void setVehicles(List<Vehicle> vehicles) {
-        Vehicles = vehicles;
-    }
-
-    public void addVehicle(Vehicle vehicle){
-        this.Vehicles.add(vehicle);
-    }
+    private List<Store> stores = new ArrayList<>();
+    private List<Vehicle> vehicles = new ArrayList<>();
 
     public void setStores(List<Store> stores) {
         this.stores = stores;
     }
 
-    public void addStore(Store store){
-        this.stores.add(store);
+    public void addStore(Store store) {
+        stores.add(store);
     }
 
-    public Store getStoreByLocation(Location location){
-        for(Store store : stores){
-            if(store.getLocation().getCity().equals(location.getCity())){
-                return store;
-            }
-        }
-
-        return null;
+    public Store getStoreByLocation(Location location) {
+        return stores.stream()
+                .filter(store -> store.getLocation().getCity().equals(location.getCity()))
+                .findFirst()
+                .orElse(null);
     }
 
-    public List<Vehicle> getVehicles(){
-        return this.Vehicles;
+    public List<Store> getStores() {
+        return stores;
     }
 
+    public List<Vehicle> getVehicles() {
+        return vehicles;
+    }
 
+    public void setVehicles(List<Vehicle> vehicles) {
+        this.vehicles = vehicles;
+    }
 
-
+    public void addVehicle(Vehicle vehicle) {
+        vehicles.add(vehicle);
+    }
 }

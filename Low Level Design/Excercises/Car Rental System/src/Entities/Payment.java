@@ -1,6 +1,6 @@
+// File: Entities/Payment.java
 package Entities;
 
 public interface Payment {
-
-    public void payBill(Bill bill);
+    void payBill(Bill bill);
 }

@@ -1,8 +1,6 @@
+// File: Entities/VehicleType.java
 package Entities;
 
 public enum VehicleType {
-    CAR,
-    VAN,
-    TRUCK,
-    MOTORCYCLE
+    CAR, VAN, SUV, TRUCK
 }
