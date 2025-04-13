@@ -1,4 +1,4 @@
-package example_one;
+package example_two;
 
 public interface ICommand {
 
