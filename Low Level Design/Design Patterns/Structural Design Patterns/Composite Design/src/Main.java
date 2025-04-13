@@ -17,6 +17,32 @@ public class Main {
         rootDir.add(wordFile);
         rootDir.add(imageFile);
 
+        Directory subDir1 = new Directory("FrontEnd Directory");
+        Directory subDir2 = new Directory("BackEnd Directory");
+        File cssFile = new File("CSS File", 100);
+        File htmlFile = new File("HTML File", 100);
+        File jsFile = new File("JS File", 100);
+        File jsonFile = new File("JSON File", 100);
+
+        subDir1.add(cssFile);
+        subDir1.add(htmlFile);
+        subDir1.add(jsFile);
+        subDir1.add(jsonFile);
+
+        File javaFile = new File("Java File", 100);
+        File springFile = new File("Spring File", 100);
+        File databaseFile = new File("Database File", 100);
+        File sqlFile = new File("SQL File", 100);
+
+        subDir2.add(javaFile);
+        subDir2.add(springFile);
+        subDir2.add(databaseFile);
+        subDir2.add(sqlFile);
+
+        rootDir.add(subDir1);
+        rootDir.add(subDir2);
+
+
         rootDir.open();
 
 
