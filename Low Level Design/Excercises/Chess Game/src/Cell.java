@@ -1,31 +1,30 @@
 public class Cell {
+    private Piece piece;
+    private int x, y;
 
-    private int row;
-    private int col;
-    private ChessPiece piece;
-    private PlayerType player;
-
-    public Cell(int row, int col, ChessPiece piece) {
+    public Cell(Piece piece, int x, int y) {
         this.piece = piece;
-        this.row = row;
-        this.col = col;
+        this.x = x;
+        this.y = y;
     }
 
-
-    public void setPiece(ChessPiece piece, PlayerType player) {
-        this.piece = piece;
-        this.player = player;
-    }
-
-    public ChessPiece getPiece() {
+    public Piece getPiece() {
         return piece;
+    }
+
+    public int getX() {
+        return x;
+    }
+
+    public int getY() {
+        return y;
+    }
+
+    public void setPiece(Piece piece) {
+        this.piece = piece;
     }
 
     public boolean isEmpty() {
         return piece == null;
-    }
-
-    public PlayerType getColor() {
-        return  PlayerType.BLACK;
     }
 }

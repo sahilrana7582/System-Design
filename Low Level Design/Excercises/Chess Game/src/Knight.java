@@ -1,11 +1,11 @@
-public class King extends Piece {
-    public King(String color) {
-        super(color, "K");
+public class Knight extends Piece {
+    public Knight(String color) {
+        super(color, "N");
     }
 
     @Override
     public boolean isValidMove(Cell start, Cell end, Board board) {
-        // King can move one square in any direction
+        // Knight moves in L-shape: 2 squares in one direction and 1 square perpendicular
         int startX = start.getX();
         int startY = start.getY();
         int endX = end.getX();
@@ -14,6 +14,6 @@ public class King extends Piece {
         int diffX = Math.abs(endX - startX);
         int diffY = Math.abs(endY - startY);
 
-        return diffX <= 1 && diffY <= 1 && (diffX > 0 || diffY > 0);
+        return (diffX == 2 && diffY == 1) || (diffX == 1 && diffY == 2);
     }
 }
