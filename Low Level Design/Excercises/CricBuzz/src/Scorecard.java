@@ -13,11 +13,13 @@ public class Scorecard {
 
     private static final Logger LOG = Logger.getLogger(Scorecard.class.getName());
 
-    public Scorecard(int totalOver) {
-        if (totalOver <= 0) {
-            throw new IllegalArgumentException("Total overs must be positive");
-        }
+    public Scorecard() {
+        this.totalOver = 0;
         this.totalOver = totalOver;
+        this.currentScore = 0;
+        this.totalScore = 0;
+        this.wicketDown = 0;
+        this.overNumber = 1;
     }
 
     // Setters

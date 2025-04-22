@@ -17,6 +17,7 @@ public class Over {
         this.overNumber = overNumber;
         this.balls = new ArrayList<>();
         this.bowler = bowler;
+        this.scorecard = scorecard;
     }
 
     public void addBall(Ball ball) {
