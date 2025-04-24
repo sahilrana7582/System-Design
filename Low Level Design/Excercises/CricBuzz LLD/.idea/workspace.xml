@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8b2da303-0692-4f13-aa9f-abe7d429817b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/Creational Design Patterns/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/Creational Design Patterns/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/Creational Design Patterns/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/Creational Design Patterns/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/Creational Design Patterns/Creational Design Patterns.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/Creational Design Patterns/Prototype/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/Creational Design Patterns/Prototype/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/Creational Design Patterns/Prototype/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/Creational Design Patterns/Prototype/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/Creational Design Patterns/Prototype/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/Creational Design Patterns/Prototype/src/example_one/Prototype.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/Creational Design Patterns/Prototype/src/example_one/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/Creational Design Patterns/Prototype/src/example_one/Shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/Creational Design Patterns/Prototype/src/example_one/Square.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/Creational Design Patterns/Prototype/src/example_three_game_characters/Character.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/Creational Design Patterns/Prototype/src/example_three_game_characters/CharacterRegistery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/Creational Design Patterns/Prototype/src/example_three_game_characters/Prototype.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/Creational Design Patterns/Prototype/src/example_three_game_characters/Warrior.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/Creational Design Patterns/Prototype/src/example_two_document_editor/Document.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/Creational Design Patterns/Prototype/src/example_two_document_editor/PDF.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/Creational Design Patterns/Prototype/src/example_two_document_editor/Prototype.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/Creational Design Patterns/Prototype/src/example_two_document_editor/Word.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/Creational Design Patterns/out/production/Creational Design Patterns/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/Creational Design Patterns/out/production/Creational Design Patterns/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/Creational Design Patterns/out/production/Creational Design Patterns/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/Creational Design Patterns/out/production/Creational Design Patterns/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/Creational Design Patterns/out/production/Creational Design Patterns/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/Creational Design Patterns/out/production/Creational Design Patterns/example_one/Prototype.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/Creational Design Patterns/out/production/Creational Design Patterns/example_one/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/Creational Design Patterns/out/production/Creational Design Patterns/example_one/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/Creational Design Patterns/out/production/Creational Design Patterns/example_one/Square.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/Creational Design Patterns/out/production/Creational Design Patterns/example_three_game_characters/Character.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/Creational Design Patterns/out/production/Creational Design Patterns/example_three_game_characters/CharacterRegistery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/Creational Design Patterns/out/production/Creational Design Patterns/example_three_game_characters/Prototype.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/Creational Design Patterns/out/production/Creational Design Patterns/example_three_game_characters/Warrior.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/Creational Design Patterns/out/production/Creational Design Patterns/example_two_document_editor/Document.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/Creational Design Patterns/out/production/Creational Design Patterns/example_two_document_editor/PDF.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/Creational Design Patterns/out/production/Creational Design Patterns/example_two_document_editor/Prototype.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/Creational Design Patterns/out/production/Creational Design Patterns/example_two_document_editor/Word.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2w634iP6qGxdotd7bRtuYb1BjNG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.codeium.enabled": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/krishna/Desktop/Learning System Design/Low Level Design/Excercises/CricBuzz LLD"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8b2da303-0692-4f13-aa9f-abe7d429817b" name="Changes" comment="" />
+      <created>1745348006841</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1745348006841</updated>
+    </task>
+    <servers />
+  </component>
+</project>

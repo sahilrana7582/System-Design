@@ -1,4 +1,4 @@
-import Simple_Example.*;
+package Simple_Example;
 
 import java.time.LocalDate;
 

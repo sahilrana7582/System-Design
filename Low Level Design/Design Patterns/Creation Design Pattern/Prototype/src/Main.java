@@ -8,6 +8,7 @@ import example_two_document_editor.Document;
 import example_two_document_editor.PDF;
 import example_two_document_editor.Word;
 
+import java.awt.*;
 import java.time.LocalDateTime;
 
 public class Main {
@@ -49,7 +50,6 @@ public class Main {
         Character warrior1 = new Warrior("warrior1", "100", 10);
         warrior1.addSkill("Fire", "Firing Skill");
         warrior1.addSkill("Water", "Water Skill");
-
         System.out.println("Original Character: " + warrior1);
         Character warrior1Copy = warrior1.clone();
         System.out.println("Cloned Character: " + warrior1Copy);
@@ -60,5 +60,6 @@ public class Main {
         characterRegistery.registerCharacter("Warrior", warrior1);
         Character warrior2 = characterRegistery.createCharacter("Warrior");
         System.out.println("Cloned Character From The Registry: " + warrior2);
+
     }
 }
